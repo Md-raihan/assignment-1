@@ -1,0 +1,92 @@
+body{
+    font-family: 'Signika Negative', sans-serif;
+
+  }
+.hirebutton{
+   
+    text-decoration: none;
+   background-image: linear-gradient(#8c00ff,rgb(246, 142, 250));
+   padding: 10px 20px;
+   border: 5px;
+   color:white;
+   font-weight: 700;
+
+
+}
+.one-sec{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+.one-sec div{
+  margin: 10px;
+  padding: 3%;
+
+
+}
+
+
+.one-sec img{
+    width: 50%;
+   
+}
+
+.colour{
+
+    color:rgb(147, 34, 161);
+}
+
+
+
+/* Style buttons */
+.btn {
+    background-color: rgba(255, 30, 255, 0.788);
+    border: 5px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 700;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(225, 124, 65);
+  }
+
+  
+ .test-box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+
+ }
+ .test-box div{
+  
+ padding: 3%;
+ margin: 30px;
+
+ }
+ .test-box  .child1{
+  background-color: rgb(255, 250, 240);
+  flex: 1;
+ }
+  .test-box  .child2{
+   background-color: rgb(251, 240, 255);
+  flex: 1;
+
+ }
+  
+  .test-box  .child3{
+  background-color: rgb(255, 247, 240);
+  flex: 1;
+
+ }
+ .test-box img{
+  width: 100%;
+ }
+ .center{
+  text-align: center;
+ }
